@@ -7,11 +7,11 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'visi forši produkti') }}</title>
     <a href="{{ route('products.index') }}" class="btn btn-primary btn-sm">
         Products
     </a>
 
+    <title>{{ config('app.name', 'visi forši produkti') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -44,6 +44,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+
 
                         @guest
 
